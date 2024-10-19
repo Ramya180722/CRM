@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Created Campaign]]>
+    </line>
+    <line>
+      <![CDATA[Created Contact]]>
+    </line>
+    <line>
+      <![CDATA[Created Organization Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser is: null]]>
+    </line>
+    <line>
+      <![CDATA[URL is: null]]>
+    </line>
+    <line>
+      <![CDATA[Username is: null]]>
+    </line>
+    <line>
+      <![CDATA[Password is: null]]>
+    </line>
+    <line>
+      <![CDATA[Created Contact Test 2]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-19T11:22:08 IST" name="Suite" finished-at="2024-10-19T11:22:08 IST" duration-ms="274">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateCampaignTest.createCampaign()[pri:0, instance:Campaign.CreateCampaignTest@3954d008]" name="createCampaign" class="Campaign.CreateCampaignTest"/>
+        <method signature="CreateContact2Test.createContact2()[pri:0, instance:Contact.CreateContact2Test@7f69d591]" name="createContact2" class="Contact.CreateContact2Test"/>
+        <method signature="CreateContactTest.createContact()[pri:0, instance:Contact.CreateContactTest@5df417a7]" name="createContact" class="Contact.CreateContactTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateOrganizationTest.createOrganization()[pri:0, instance:Organization.CreateOrganizationTest@7c041b41]" name="createOrganization" class="Organization.CreateOrganizationTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2024-10-19T11:22:08 IST" name="Test" finished-at="2024-10-19T11:22:08 IST" duration-ms="274">
+      <class name="Contact.CreateContact2Test">
+        <test-method signature="createContact2()[pri:0, instance:Contact.CreateContact2Test@7f69d591]" started-at="2024-10-19T11:22:08 IST" name="createContact2" finished-at="2024-10-19T11:22:08 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Created Contact Test 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact2 -->
+      </class> <!-- Contact.CreateContact2Test -->
+      <class name="Campaign.CreateCampaignTest">
+        <test-method signature="createCampaign()[pri:0, instance:Campaign.CreateCampaignTest@3954d008]" started-at="2024-10-19T11:22:08 IST" name="createCampaign" finished-at="2024-10-19T11:22:08 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Created Campaign]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+      </class> <!-- Campaign.CreateCampaignTest -->
+      <class name="Contact.CreateContactTest">
+        <test-method signature="createContact()[pri:0, instance:Contact.CreateContactTest@5df417a7]" started-at="2024-10-19T11:22:08 IST" name="createContact" finished-at="2024-10-19T11:22:08 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Created Contact]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+      </class> <!-- Contact.CreateContactTest -->
+      <class name="Organization.CreateOrganizationTest">
+        <test-method signature="createOrganization()[pri:0, instance:Organization.CreateOrganizationTest@7c041b41]" started-at="2024-10-19T11:22:08 IST" name="createOrganization" finished-at="2024-10-19T11:22:08 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Created Organization Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser is: null]]>
+            </line>
+            <line>
+              <![CDATA[URL is: null]]>
+            </line>
+            <line>
+              <![CDATA[Username is: null]]>
+            </line>
+            <line>
+              <![CDATA[Password is: null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+      </class> <!-- Organization.CreateOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
